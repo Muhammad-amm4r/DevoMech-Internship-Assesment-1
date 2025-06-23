@@ -9,7 +9,6 @@ A comprehensive backend system for managing IoT devices across multiple location
 - **Telemetry**: Ingest and retrieve telemetry data from devices
 - **Status Monitoring**: Get the latest known status of devices
 - **Security**: Role-based access control
-- **API Documentation**: Interactive Swagger UI
 
 ## Tech Stack
 
@@ -22,7 +21,7 @@ A comprehensive backend system for managing IoT devices across multiple location
 ## Project Structure
 
 ```
-orm-dbmigration/
+iot-backend/
 ├── alembic/            # Database migrations
 ├── app/
 │   ├── api/            # API endpoints
@@ -31,7 +30,6 @@ orm-dbmigration/
 │   ├── db/             # Database connection
 │   ├── models/         # SQLAlchemy models
 │   └── schemas/        # Pydantic models
-├── .ebextensions/      # Elastic Beanstalk configuration
 ├── requirements.txt    # Python dependencies
 ├── alembic.ini         # Alembic configuration
 └── README.md           # Project documentation
@@ -107,14 +105,10 @@ orm-dbmigration/
   - `GET /telemetry/device/{device_id}/latest`: Get latest telemetry
   - `GET /telemetry/device/{device_id}/status`: Get device status
 
-## Deployment
-
-This project includes configuration for deploying to AWS Elastic Beanstalk. See the detailed deployment instructions in `orm-dbmigration/README.md`.
-
 ## License
 
 MIT
 
 ## Contributors
 
-- Your Name 
+- amm4r
