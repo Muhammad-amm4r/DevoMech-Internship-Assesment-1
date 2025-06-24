@@ -41,8 +41,8 @@ iot-backend/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/iot-device-backend.git
-   cd iot-device-backend
+   git clone https://github.com/Muhammad-amm4r/DevoMech-Internship-Assesment-1.git
+   cd DevoMech-Internship-Assesment-1
    ```
 
 2. Start the application with Docker Compose:
@@ -56,8 +56,8 @@ iot-backend/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/iot-device-backend.git
-   cd iot-device-backend
+   git clone https://github.com/Muhammad-amm4r/DevoMech-Internship-Assesment-1.git
+   cd DevoMech-Internship-Assesment-1
    ```
 
 2. Create and activate a virtual environment:
